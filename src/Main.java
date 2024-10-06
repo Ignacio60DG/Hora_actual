@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Introduce una fecha priemro una hora, despues un minuto y despues un segundo (claro cada uno separado por un enter y que tengan los mismos numeros de cifra que su numero por ejemplo que 1 no sea 01 :D)");
 
         Scanner sc = new Scanner(System.in);
+
         int horas = sc.nextInt();
         int minutos = sc.nextInt();
         int segundos = sc.nextInt();
